@@ -60,7 +60,7 @@ namespace QuartzTimer.Quartz
 
             SmtpClient client = new SmtpClient();
             client.Connect("smtp.gmail.com", 587, false);
-            client.Authenticate("murattokak21@gmail.com", "lecsplerevwjjmsn");
+            client.Authenticate("mail bilginizi yazını", "şifrenizi yazınız");
             client.Send(mimeMessage);
             client.Disconnect(true);
             
